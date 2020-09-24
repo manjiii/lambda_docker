@@ -1,19 +1,40 @@
 
 # Set up
-- run poetry install.
+1. Clone this repository.
+2. Run poetry install.
   
-  `poetry install`
+```sh
+poetry install
+```
+
+# Run lambda in local
+- Run lambda using python for test
+  
+```sh
+source  .venv/bin/activate
+python lambda_function.py
+```
+or
+
+- In VSCode, press [F5](to run debug)
+  
+  *This repository contains launch.json
+
 
 
 # Run lambda in docker container
-- run lambda using python for test
-  
-  `sh commands/lambda_run.sh`
+- Run lambda using python for test
+
+```sh
+sh commands/lambda_run.sh
+```
 
 # Package and Make zip file
-- make zip file
-  
-  `sh commands/lambda_buiild.sh`
+1. Make zip file
 
-- upload "deploy_package.zip" to lambda.
+```sh
+sh commands/lambda_buiild.sh
+```
+
+2. Upload "deploy_package.zip" to lambda.
 
