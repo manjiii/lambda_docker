@@ -6,13 +6,14 @@
 
 
 # Run lambda in docker container
-- run python on docker image
+- run lambda using python for test
   
   `sh commands/lambda_run.sh`
 
 # Package and Make zip file
-- upload "deploy_package.zip" to lambda.
+- make zip file
   
   `sh commands/lambda_buiild.sh`
 
+- upload "deploy_package.zip" to lambda.
 
