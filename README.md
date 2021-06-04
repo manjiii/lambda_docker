@@ -1,9 +1,15 @@
 
+
+# Requirements
+poetry
+
 # Set up
 1. Clone this repository.
 2. Run poetry install.
   
+
 ```sh
+poetry config --local virtualenvs.in-project true
 poetry install
 ```
 
